@@ -1,0 +1,284 @@
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    background-color: white;
+}
+
+#Logo{
+    width: 80px;
+    padding-right: 40px;
+}
+
+nav img{
+    width: 150px;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 25px;
+    color: black;
+}
+
+.section1{
+    background-image: url(/home01\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+}
+
+.contanier{
+    width: 90%;
+    margin:auto;
+    padding:10px;
+}
+
+#images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#section2-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin:180px auto;
+    border-radius: 15px;
+}
+
+.section2-child1{
+    position:relative;
+    margin:10px; 
+    border-radius: 15px;
+}
+
+.section2-child1:hover{
+    background-color:#1dc99b;
+    color: white;
+}
+
+#secim{
+    position: absolute;
+    bottom:150px;
+    left:99px;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+#icons{
+    width: 50px;
+}
+
+#Text{
+    width: 200px;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+#Text h6{
+    color: #322871;
+}
+
+#Text p{
+    color: #1dc99b;
+    text-align: center;
+}
+
+h3{
+    font-size: 48px;
+    color: #322871;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#section3-child{
+    width: 50%;
+    flex-basis: 480px;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#section4-child{
+    width: 50%;
+    flex-basis: 480px;
+}
+
+.section5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+
+#section5-child{
+    width: 50%;
+    flex-basis: 480px;
+}
+
+.section6{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+
+#section6-child{
+    width: 50%;
+}
+
+.section7{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section7-child{
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+}
+.section8-child{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.section8-child2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.section8-child video{
+    width: 130px;
+    height: 184px;
+    position: absolute;
+    top: -24px;
+    left: 290px;
+    z-index: -1;
+}
+
+.section8-child video:hover{
+    stroke-opacity: ;
+}
+
+.section9-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#322871 ;
+}
+
+.section9-child2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.section11-Child{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    font-size: smaller;
+}
+
+.section11-Child1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section11-Child2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section11-Child ul,li,h6{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.section12-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-facebook{
+    color: #322871;
+}
+
+
+@media screen and (max-width: 768px){
+    nav ul{
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 10px;
+        display: none;
+        z-index: 100;
+    }
+    
+    nav ul li{
+        margin: 10px 0;
+    }
+    
+    nav ul li:hover{
+        background-color: #1dc99b;
+        color: white;
+    }
+    
+    nav img:hover{
+        width: 200px;
+    }
+    .section1{
+        font-size: 20px;
+        font-family: fantasy;
+    }
+    .section3 {
+        display:block;
+    }
+    #section3-child{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    
+    img{
+        width: 300px;
+    }
+    #section4{
+        display:block;
+    }
+}
